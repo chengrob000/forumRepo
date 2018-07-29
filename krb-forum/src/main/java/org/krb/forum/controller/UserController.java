@@ -171,7 +171,7 @@ public class UserController {
         }
         UserEditForm userEditForm = new UserEditForm();
         
-        model.addAttribute("userProfile1", userProfile);
+        model.addAttribute("userProfile", userProfile);
         model.addAttribute("userEditForm", userEditForm);
         return "user_edit_form";
     }
